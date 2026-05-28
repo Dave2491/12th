@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
-import { Zap, Trophy, Shield, User } from "lucide-react";
+import { Zap, Trophy, Shield, User, Droplets } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 
 const NAV_ITEMS: { href: string; label: string; icon: LucideIcon }[] = [
@@ -93,6 +93,32 @@ export function AppNav() {
           className="px-4 py-5"
           style={{ borderTop: "1px solid rgba(255,255,255,0.06)" }}
         >
+          {/* Faucet link */}
+          <a
+            href="https://www.okx.com/xlayer/faucet"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 w-full rounded-[10px] px-3 py-2 mb-3 transition-all duration-200 font-inter text-xs font-semibold"
+            style={{
+              color: "#555555",
+              background: "rgba(255,255,255,0.03)",
+              border: "1px solid rgba(255,255,255,0.06)",
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.color = "#22d3ee";
+              e.currentTarget.style.borderColor = "rgba(34,211,238,0.25)";
+              e.currentTarget.style.background = "rgba(34,211,238,0.05)";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.color = "#555555";
+              e.currentTarget.style.borderColor = "rgba(255,255,255,0.06)";
+              e.currentTarget.style.background = "rgba(255,255,255,0.03)";
+            }}
+          >
+            <Droplets size={13} />
+            <span>Get Testnet OKB</span>
+          </a>
+
           <div style={{ display: "flex", alignItems: "center", gap: "6px", paddingBottom: "12px" }}>
             <img src="/images/xlayer-logo.svg" alt="X Layer" style={{ width: "16px", height: "16px", objectFit: "contain", opacity: 0.6 }} />
             <span style={{ fontSize: "10px", color: "#444", letterSpacing: "0.05em" }}>
