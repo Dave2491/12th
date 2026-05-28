@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200" fill="#ffffff">
+  <!-- Top-left block -->
+  <rect x="0"   y="0"   width="62" height="62" />
+  <!-- Top-center block -->
+  <rect x="80"  y="0"   width="62" height="62" />
+  <!-- Top-right bars -->
+  <rect x="160" y="0"   width="26" height="62" />
+  <rect x="194" y="0"   width="26" height="62" />
+
+  <!-- Middle block (X crossing) -->
+  <rect x="40"  y="69"  width="62" height="62" />
+
+  <!-- Bottom-left block -->
+  <rect x="0"   y="138" width="62" height="62" />
+  <!-- Bottom-center block -->
+  <rect x="80"  y="138" width="62" height="62" />
+  <!-- Bottom-right bars -->
+  <rect x="160" y="138" width="26" height="62" />
+  <rect x="194" y="138" width="26" height="62" />
+</svg>

@@ -1,0 +1,8 @@
+[
+  { "id": "daily-trivia", "title": "Answer Today's Trivia", "description": "One question. One chance.", "points": 30, "quest_type": "trivia", "resets": "daily" },
+  { "id": "match-checkin", "title": "Match Day Check-In", "description": "Show up for your squad.", "points": 100, "quest_type": "checkin", "resets": "daily" },
+  { "id": "first-prediction", "title": "Make a Prediction", "description": "Pick the result. Prove you know football.", "points": 20, "quest_type": "prediction", "resets": "never" },
+  { "id": "prediction-streak-3", "title": "3 Correct Predictions", "description": "Called it. Three times.", "points": 50, "quest_type": "prediction_streak", "resets": "never" },
+  { "id": "checkin-streak-3", "title": "3-Day Check-In Streak", "description": "You don't miss.", "points": 75, "quest_type": "checkin_streak", "resets": "never" },
+  { "id": "mint-badge", "title": "Mint Your Fan Badge", "description": "Make it official. Put it onchain.", "points": 100, "quest_type": "onchain", "resets": "never" }
+]

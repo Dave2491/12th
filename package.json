@@ -6,12 +6,25 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "seed:trivia": "ts-node --project tsconfig.scripts.json src/scripts/seed-trivia.ts",
+    "seed:teams": "ts-node --project tsconfig.scripts.json src/scripts/seed-teams.ts",
+    "seed:fixtures": "ts-node --project tsconfig.scripts.json src/scripts/seed-fixtures.ts",
+    "seed:quests": "ts-node --project tsconfig.scripts.json src/scripts/seed-quests.ts",
+    "seed:all": "npm run seed:trivia && npm run seed:teams && npm run seed:fixtures && npm run seed:quests",
+    "deploy:testnet": "cd contracts && npx hardhat run scripts/deploy.ts --network xlayer_testnet"
   },
   "dependencies": {
+    "@rainbow-me/rainbowkit": "^2.2.11",
+    "@supabase/supabase-js": "^2.106.1",
+    "@tanstack/react-query": "^5.100.14",
+    "country-flag-emoji-polyfill": "^0.1.8",
+    "lucide-react": "^1.16.0",
     "next": "16.2.6",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "viem": "^2.50.4",
+    "wagmi": "^3.6.15"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
@@ -21,6 +34,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.2.6",
     "tailwindcss": "^4",
+    "ts-node": "^10.9.2",
     "typescript": "^5"
   }
 }

@@ -1,0 +1,14 @@
+[
+  { "id": 1,  "homeTeam": "MX",     "awayTeam": "ZA", "group": "A", "label": "Mexico vs South Africa",   "kickoffUtc": "2026-05-25T13:00:00.000Z", "status": "finished" },
+  { "id": 2,  "homeTeam": "US",     "awayTeam": "PY", "group": "D", "label": "USA vs Paraguay",           "kickoffUtc": "2026-05-25T16:00:00.000Z", "status": "finished" },
+  { "id": 3,  "homeTeam": "BR",     "awayTeam": "MA", "group": "C", "label": "Brazil vs Morocco",         "kickoffUtc": "2026-05-25T19:00:00.000Z", "status": "live"     },
+  { "id": 4,  "homeTeam": "DE",     "awayTeam": "CW", "group": "E", "label": "Germany vs Curacao",        "kickoffUtc": "2026-05-26T12:00:00.000Z", "status": "upcoming" },
+  { "id": 5,  "homeTeam": "NL",     "awayTeam": "JP", "group": "F", "label": "Netherlands vs Japan",      "kickoffUtc": "2026-05-26T15:00:00.000Z", "status": "upcoming" },
+  { "id": 6,  "homeTeam": "CI",     "awayTeam": "EC", "group": "E", "label": "Ivory Coast vs Ecuador",    "kickoffUtc": "2026-05-26T18:00:00.000Z", "status": "upcoming" },
+  { "id": 7,  "homeTeam": "BE",     "awayTeam": "IR", "group": "G", "label": "Belgium vs Iran",           "kickoffUtc": "2026-05-26T21:00:00.000Z", "status": "upcoming" },
+  { "id": 8,  "homeTeam": "ES",     "awayTeam": "UY", "group": "H", "label": "Spain vs Uruguay",          "kickoffUtc": "2026-05-27T18:00:00.000Z", "status": "upcoming" },
+  { "id": 9,  "homeTeam": "FR",     "awayTeam": "SN", "group": "I", "label": "France vs Senegal",         "kickoffUtc": "2026-05-28T20:00:00.000Z", "status": "upcoming" },
+  { "id": 10, "homeTeam": "AR",     "awayTeam": "AT", "group": "J", "label": "Argentina vs Austria",      "kickoffUtc": "2026-05-29T18:00:00.000Z", "status": "upcoming" },
+  { "id": 11, "homeTeam": "PT",     "awayTeam": "CO", "group": "K", "label": "Portugal vs Colombia",      "kickoffUtc": "2026-05-30T15:00:00.000Z", "status": "upcoming" },
+  { "id": 12, "homeTeam": "GB-ENG", "awayTeam": "HR", "group": "L", "label": "England vs Croatia",        "kickoffUtc": "2026-05-31T18:00:00.000Z", "status": "upcoming" }
+]
