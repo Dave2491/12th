@@ -8,12 +8,13 @@ const syne  = Syne({ subsets: ["latin"], variable: "--font-syne",  weight: ["400
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: "Twelfth — The Supporter Layer",
+  title: "Twelfth — World Cup 2026 Trivia",
   description:
-    "Join your national squad, check in for matches, earn badges, and help your country climb the global fan leaderboard.",
+    "Pick your country, answer World Cup trivia, earn points, and push your nation to the top of the global leaderboard. Fan passports and badges minted on X Layer.",
   openGraph: {
-    title: "Twelfth — The Supporter Layer",
-    description: "Football fan identity, powered by X Layer.",
+    title: "Twelfth — World Cup 2026 Trivia",
+    description:
+      "Pick your country. Answer trivia. Represent your nation on X Layer.",
     type: "website",
   },
 };
